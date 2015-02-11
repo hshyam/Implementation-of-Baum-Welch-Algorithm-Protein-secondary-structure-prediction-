@@ -1,0 +1,18 @@
+Protein secondary structure prediction
+
+In this project, I implemented the Baum-Welch Algorithm for the problem of protein secondary structure prediction.
+
+1. Designed the HMM representation of protein secondary structure prediction, e.g. three states representing hexlices, sheets and loops; emissions are the on the 20 amino acide residues. 
+
+2. Used maximum likelihood learning to train a HMM with the training data, called HMM_ml. Note that both amino acid sequence and secondary structure sequence should be used to train HMM_ml. 
+
+3. Implemented Baum-Welch algorithm for HMM training. Learned a HMM with the test data, called HMM_bw.
+
+4. Applied HMM_ml and HMM_bw to predict the secondary structure of the test data. 
+
+Dataset:
+A protein secondary structure dataset is provided here. The training data is in protein-secondary-structure.train and the test data is in protein-secondary-structure.test.
+
+References:
+http://archive.ics.uci.edu/ml/datasets/Molecular+Biology+(Protein+Secondary+Structure)
+
